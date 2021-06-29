@@ -36,6 +36,8 @@ This will indicate that the server is "listening on port 3000"
 
 - Dockerization of the app would offer a runtime-environment to ensure consistency across various machines & a one-click start up for the application
 
+- I wanted to bundle this application with Parcel, which is an alternative to webpack/babel, however I kept getting an error so for the sake of time I used webpack/babel
+
 ## To change the localhost Port number
 
 - open the server.js in the main directory of the repository
