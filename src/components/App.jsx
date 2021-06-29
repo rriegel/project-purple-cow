@@ -1,15 +1,32 @@
-import React from 'react';
-import $ from 'jquery';
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 
 const App = () => {
+
+  const [count, updateCount] = useState(0);
+
+  const getCount = () => {
+    axios.get('/hits')
+      .then((res) => {
+        updateCount(res.data);
+      })
+      .catch((err) => {
+        console.log('error: ', err);
+      });
+  };
+
+  useEffect(() => {
+    getCount();
+  }, []);
+
   return (
     <>
       <div>
-        {console.log('App.jsx is connected')}
+        Purple Cow Project
       </div>
-      <div>
-        Hello World
-      </div>
+      <button>
+        Hit me!
+      </button>
     </>
   )
 
