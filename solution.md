@@ -12,13 +12,7 @@ This is a trial project for Fearless Tech that utilizes the CountAPI to retrieve
 
 - Open the project's directory in a command line like Terminal on Mac
 
-- Enter the following command to install the necessary dependencies:
-
-```
-npm install
-```
-
-- Enter the following command to start the app:
+- Enter the following command to install dependencies and start the app:
 
 ```
 npm start

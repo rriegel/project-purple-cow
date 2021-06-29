@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --mode development --watch",
     "start-dev": "nodemon",
-    "start": "webpack --mode development && nodemon"
+    "start": "npm install && webpack --mode development && nodemon"
   },
   "repository": {
     "type": "git",
