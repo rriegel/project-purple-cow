@@ -1,0 +1,47 @@
+body {
+  background-color: #FFFFFF;
+}
+* {
+  font-family: 'Nanum Gothic', sans-serif !important;
+}
+
+#app {
+  background-color: #5C3977;
+  color: #a5a5a5;
+  height: 1080px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content > div {
+  margin-bottom: 100px;
+}
+
+button {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  font-size: x-large;
+  border-radius: 20px;
+  color: #5C3977;
+}
+
+.title {
+  font-size: 100px;
+  color: #FFFFFF;
+}
+
+.count {
+  font-size: 50px;
+}

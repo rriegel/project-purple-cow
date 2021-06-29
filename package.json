@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "build": "webpack --mode development --watch",
-    "start": "nodemon"
+    "start-dev": "nodemon",
+    "start": "webpack --mode development && nodemon"
   },
   "repository": {
     "type": "git",

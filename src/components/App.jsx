@@ -21,14 +21,21 @@ const App = () => {
   }
   return (
     <>
-      <div>
-        Purple Cow Project
-      </div>
-      <button onClick={ () => {handleClick()} }>
-        Click Here
-      </button>
-      <div>
-        {count || 'Click the button to view Hits!'}
+      <div className="content">
+        <div className="title">
+          Purple Cow Project
+        </div>
+        <div className="count">
+          {count ? `Hits: ${count}` : 'Click the button!'}
+        </div>
+        <div>
+          <button onClick={ () => {handleClick()} }>
+            Click Here
+          </button>
+        </div>
+        <span>
+          By: Ryan Riegel
+        </span>
       </div>
     </>
   )

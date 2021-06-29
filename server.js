@@ -10,7 +10,6 @@ app.use(express.static('dist'));
 const url = "https://api.countapi.xyz/hit/rriegel-purple-cow/1ccb732e-b55a-4404-ad3f-0f99c02fe44e"
 
 app.get('/hits', (req, res) => {
-  console.log('got a hit request')
   axios.get(url)
     .then((response) => {
       res.status(200).send(response.data);
