@@ -1,4 +1,4 @@
-# Fearless Tech: Purple Cow Project
+# Fearless Tech: Purple Cow Project 💜
 
 ## About
 
@@ -6,7 +6,7 @@ This is a trial project for Fearless Tech that utilizes the CountAPI to retrieve
 
 ---
 
-## How to Use
+## How to Use 👀
 
 - Clone the git repository to your local machine
 
@@ -30,7 +30,7 @@ This will indicate that the server is "listening on port 3000"
 
 ---
 
-## Future Improvements
+## Future Improvements 🔨
 
 - This application is only just passed MVP form, so the styling and overall appearance would be improved if given more time
 
@@ -40,7 +40,7 @@ This will indicate that the server is "listening on port 3000"
 
 ---
 
-## To change the localhost Port number
+## To change the localhost Port number 3️⃣0️⃣0️⃣0️⃣
 
 - Open server.js in the main directory of the repository
 
@@ -50,7 +50,7 @@ This will indicate that the server is "listening on port 3000"
 
 ---
 
-## Tools Utilized
+## Tools Utilized 🛠
 
 [![](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge)](https://www.javascript.com/)
 [![](https://img.shields.io/badge/ReactJS-61DAFB?logo=react&logoColor=white&style=for-the-badge)](https://reactjs.org/)
