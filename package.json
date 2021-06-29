@@ -1,0 +1,20 @@
+{
+  "name": "project-purple-cow",
+  "version": "1.0.0",
+  "description": "Trial project for Fearless Tech Baltimore",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rriegel/project-purple-cow.git"
+  },
+  "keywords": [],
+  "author": "Ryan Riegel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rriegel/project-purple-cow/issues"
+  },
+  "homepage": "https://github.com/rriegel/project-purple-cow#readme"
+}
