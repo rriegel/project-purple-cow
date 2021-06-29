@@ -38,13 +38,17 @@ This will indicate that the server is "listening on port 3000"
 
 - I wanted to bundle this application with Parcel, which is an alternative to webpack/babel, however I kept getting an error so for the sake of time I used webpack/babel
 
+---
+
 ## To change the localhost Port number
 
-- open the server.js in the main directory of the repository
+- Open server.js in the main directory of the repository
 
 - Change the value of port on line 20
 
 - Stop the server from listening and run "npm start" again to see the port change
+
+---
 
 ## Tools Utilized
 
