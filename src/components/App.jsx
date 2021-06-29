@@ -8,25 +8,28 @@ const App = () => {
   const getCount = () => {
     axios.get('/hits')
       .then((res) => {
-        updateCount(res.data);
+        updateCount(res.data.value);
       })
       .catch((err) => {
         console.log('error: ', err);
       });
   };
 
-  useEffect(() => {
+  const handleClick = () => {
     getCount();
-  }, []);
-
+    console.log(count);
+  }
   return (
     <>
       <div>
         Purple Cow Project
       </div>
-      <button>
-        Hit me!
+      <button onClick={ () => {handleClick()} }>
+        Click Here
       </button>
+      <div>
+        {count || 'Click the button to view Hits!'}
+      </div>
     </>
   )
 
