@@ -32,7 +32,7 @@ This will indicate that the server is "listening on port 3000"
 
 ## Future Improvements
 
-- This application is only just past MVP form, so the styling and overall appearance would be improved if given more time
+- This application is only just passed MVP form, so the styling and overall appearance would be improved if given more time
 
 - Dockerization of the app would offer a runtime-environment to ensure consistency across various machines & a one-click start up for the application
 
